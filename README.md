@@ -48,7 +48,11 @@ npm run serve -w @apps/react-hello-world
 - **Technology**: Node.js with Docker
 - **Commands**:
 ```bash
+# Option 1: Run commands separately
 cd apps/node-js-hello-world-on-docker
 docker build -t node-hello-world .
 docker run node-hello-world
+
+# Option 2: Run with single command
+npm run docker:hello
 ```

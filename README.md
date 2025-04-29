@@ -1,15 +1,45 @@
-# learn nx
+# Project Apps
 
-## run commands
-
+## Phil
+- **Technology**: TypeScript
+- **Commands**:
 ```bash
-npm install
-
-# Run phil app
 npm run build -w @apps/phil
 npm run serve -w @apps/phil
+```
 
-# Run phil2 app
+## Phil2
+- **Technology**: TypeScript
+- **Commands**:
+```bash
 npm run build -w @apps/phil2
 npm run serve -w @apps/phil2
+```
+
+## Node.js Hello World
+- **Technology**: Node.js
+- **Commands**:
+```bash
+npm run serve -w @apps/node-js-hello-world
+```
+
+## Node.js Web Server
+- **Technology**: Node.js
+- **Commands**:
+```bash
+npm run serve -w @apps/node-js-web-server
+```
+
+## Express.js Web Server
+- **Technology**: Node.js with Express.js
+- **Commands**:
+```bash
+npm run serve -w @apps/node-express-web-server
+```
+
+## React Hello World
+- **Technology**: React with TypeScript
+- **Commands**:
+```bash
+npm run serve -w @apps/react-hello-world
 ```

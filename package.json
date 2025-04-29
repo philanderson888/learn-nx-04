@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "docker:hello": "cd apps/node-js-hello-world-on-docker && docker build -t node-hello-world . && docker run node-hello-world",
-    "docker:web": "cd apps/node-js-web-server-on-docker && docker build -t node-web-server . && docker run -p 5004:5004 node-web-server"
+    "docker:web": "cd apps/node-js-web-server-on-docker && docker build -t node-web-server . && docker run -p 5004:5004 node-web-server",
+    "docker:express": "cd apps/node-express-web-server-on-docker && docker build -t express-web-server . && docker run -p 5005:5005 express-web-server"
   },
   "keywords": [],
   "author": "",

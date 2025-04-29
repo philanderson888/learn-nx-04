@@ -69,3 +69,16 @@ docker run -p 5004:5004 node-web-server
 # Option 2: Run with single command
 npm run docker:web
 ```
+
+## Express.js Web Server on Docker
+- **Technology**: Node.js with Express.js on Docker
+- **Commands**:
+```bash
+# Option 1: Run commands separately
+cd apps/node-express-web-server-on-docker
+docker build -t express-web-server .
+docker run -p 5005:5005 express-web-server
+
+# Option 2: Run with single command
+npm run docker:express
+```

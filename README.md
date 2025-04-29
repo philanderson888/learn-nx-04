@@ -56,3 +56,16 @@ docker run node-hello-world
 # Option 2: Run with single command
 npm run docker:hello
 ```
+
+## Node.js Web Server on Docker
+- **Technology**: Node.js with Docker
+- **Commands**:
+```bash
+# Option 1: Run commands separately
+cd apps/node-js-web-server-on-docker
+docker build -t node-web-server .
+docker run -p 5004:5004 node-web-server
+
+# Option 2: Run with single command
+npm run docker:web
+```
